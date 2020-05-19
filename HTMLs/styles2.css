@@ -136,11 +136,7 @@ footer      /* for the footer*/
     text-align           : center ;
     color                : grey;
  }
-.inspire /*for inspiration page*/
-{
-   /* display      rgb(160, 164, 209)        :inline;*/
-    list-style           :none ;
-}
+
 
 #about /*for about page*/
 {
@@ -151,4 +147,17 @@ footer      /* for the footer*/
 #resources /*for resource page*/
 {
     padding-left    :100px;
+}
+.flex
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex img
+{
+    height:100px;
+    width: 100px;
+    margin:5px 5px 5px 5px;
 }
